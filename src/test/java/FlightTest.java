@@ -143,5 +143,6 @@ public class FlightTest {
         passengers.add(passenger11);
         flight.bookPassenger(passengers);
         assertEquals(10, flight.getPassengerCount());
+        assertEquals(0, flight.remainingAvailableSpace());
     }
 }
