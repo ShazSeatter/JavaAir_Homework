@@ -85,7 +85,7 @@ public class Flight {
     }
 
     public void addPassengers(Passenger passenger) {
-        if (getPassengerCount() < getPlaneCapacity()) {
+        if (remainingAvailableSpace() > 0) {
             passengers.add(passenger);
         }
     }

@@ -6,4 +6,5 @@ public enum RankType {
 
 //    purser = manager of the flight attendents
 //    first officer = co-pilot
+
 }
